@@ -1,0 +1,5 @@
+- name: Setup Payment Component
+  hosts: all
+  become: yes
+  roles:
+    - payment

@@ -1,0 +1,5 @@
+- name: Setup MySQL Component
+  hosts: all
+  become: yes
+  roles:
+    - mysql

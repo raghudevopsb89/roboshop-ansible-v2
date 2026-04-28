@@ -1,0 +1,7 @@
+- name: Setup Frontend Component
+  hosts: all
+  become: yes
+  roles:
+    - frontend
+
+

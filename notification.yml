@@ -1,0 +1,8 @@
+- name: Setup Notification Component
+  hosts: all
+  become: yes
+  roles:
+    - notification
+
+
+
